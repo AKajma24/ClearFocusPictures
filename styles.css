@@ -1,0 +1,314 @@
+/* 
+Author: Alex Kajma
+Date: 20/04/23
+*/
+
+/*
+COLOURS (change once you find colours)
+#211d1c - dark brown (for text)
+#2f261d - brown
+#225c71 - dark teal
+#c62d03 - burnt red
+#EEE9D9 - beige
+#F2B281 - peach
+#F2E5A0 - light yellow - About
+#B4D5A8 - light green - Gallery
+#BEE0F4 - light blue - Podcast
+#FA9292 - light red - Contact 
+*/
+
+/*GLOBAL STYLES
+----------------------------------------
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i&display=swap');
+
+#wrapper {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #F2B281;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+a {
+    color: #225c71;
+}
+
+a:visited {
+    color: #c62d03;
+}
+
+
+
+/* HEADER
+----------------------------------------
+*/
+header h1 {
+    visibility: hidden;
+}
+
+header img {
+    position: relative;
+    top: 15px; left: 20px;
+    z-index: 1;
+}
+
+/* NAVIGATION
+----------------------------------------
+*/
+
+nav {
+    background-color: #ffffff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: end;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #211d1c;
+    text-decoration: none;
+    padding: 10px 20px 15px 20px;
+    font-size: 1.5em;
+}
+
+nav a:visited {
+    color: #211d1c;
+}
+
+nav a:hover {
+    background-color: #F2B281;
+}
+
+nav span {
+    padding: 10px 20px 15px 20px;
+    background-color: #F2B281;
+    color: #211d1c;
+    font-size: 1.5em;
+}
+
+/* CONTENT 1
+----------------------------------------
+*/
+
+#why {
+    background-color: #F2E5A0;
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    height: auto;
+}
+
+#why h2 {
+    margin: 20px 40px 20px;
+    font-size: 3em; 
+}
+
+#why p {
+    margin: 0px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+
+#why div {
+    margin: 5px;
+    padding: 40px 40px 40px 20px;
+    width: 530px;
+}
+
+#why img {
+    padding: 25px;
+}
+
+#why a {
+    color: #211d1c;
+    text-decoration: none;
+}
+
+#why a:hover {
+    text-decoration: underline;
+}
+
+#about_me {
+    display: flex;
+}
+
+
+#about_me div {
+    background: #F2E5A0;
+    margin: 50px;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+}
+
+#about_me h2 {
+    margin: 20px 40px 20px;
+    font-size: 3em; 
+}
+
+#about_me p {
+    margin: 0px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+
+
+/* CONTENT 2
+----------------------------------------
+*/
+
+#gallery {
+    background-color: #B4D5A8;
+    display: flex;
+    margin: 50px;
+    padding: 25px;
+    height: auto;
+}
+
+#gallery h2 {
+    margin: 20px 40px 20px;
+    font-size: 3em; 
+}
+
+#gallery p {
+    margin: 0px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+#gallery div {
+    align-self: center;
+    padding: 50px 40px;
+    width: 500px;
+    height: 300px;
+}
+
+#gallery img {
+    padding: 25px;
+}
+
+#gallery a {
+    color: #211d1c;
+    text-decoration: none;
+}
+
+#gallery a:hover {
+    text-decoration: underline;
+}
+
+#about_me_2 {
+    display: flex;
+}
+
+#about_me_2 img {
+    margin: 50px;
+    padding: 20px;
+}
+
+#about_me_2  div {
+    background: #F2E5A0;
+    margin: 0px 50px;
+    padding: 0px 20px;
+    width: 50%;
+    height: auto;
+}
+
+#about_me_2 p {
+    margin: 0px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+/* CONTENT 3
+----------------------------------------
+*/
+
+#podcast {
+    background-color: #BEE0F4;
+    display: flex;
+    margin: 50px;
+    padding: 25px
+}
+
+#podcast h2 {
+    margin: 20px 40px 20px;
+    font-size: 3em; 
+}
+
+#podcast p {
+    margin: 0px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+#podcast a {
+    color: #211d1c;
+    text-decoration: none;
+}
+
+#podcast a:hover {
+    text-decoration: underline;
+}
+
+#podcast div {
+    margin: 5px;
+    padding: 40px 40px 40px 20px;
+    width: 530px;
+}
+
+/* FOOTER
+----------------------------------------
+*/
+ 
+blockquote {
+    background: #ffffff;
+    margin: 0;
+    padding: 50px 25px 10px 25px;
+    text-align: center;
+}
+
+footer {
+    background: #ffffff;
+    margin: 0;
+    padding: 15px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    padding: 10px;
+    font-size: 1em;
+}
+
+
+
+
+
